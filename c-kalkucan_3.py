@@ -1,5 +1,5 @@
 # Program:  Calculadora de Perimetro (Return ID from container)
-# Method:   Queue (pilas)
+# Method:   Queue (colas)
 # Date:     September 11th, 2022
 
 import math
