@@ -1,0 +1,113 @@
+/* APARTADO CONOCENOS*/
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+/* Barra superior(navbar) */
+.top{
+    margin: 20px 50px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+}
+
+/* BOTON Inicio */
+.botonInicio{
+    background: #373737;    
+    height: 50px;    
+    margin: 20px 50px;
+    border-radius: 30px;    /* Radio (curvas en esquinas) */
+    padding: 1.5px 40px;     /* Fondo del texto */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonInicio:hover{
+    background:  #242528;
+}
+
+/* Elimina linea de enlace */
+a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Imgen logo - redondo */
+.miniLogo{
+    border-radius:150px;
+}
+
+/* Tamaño Kalcukan */
+.kalcukan{
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Contenedores con infromación para el usuario */
+.contTitulo{
+    background: #373737; 
+    height: 50px;    
+    margin: 20px 50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.screen{
+    justify-content: space-between;
+    margin: 40px 55px;
+    padding: 10px 30px;
+}
+.contTexto{
+    background: #373737;
+    width: 100%; 
+    border-radius: 20px;  
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+/* Contenedores datos personales */
+.datos{
+    width: 240px;
+    height: 150px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.datos2{
+    width: 240px;
+    height: 90px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* Imagen USER - redondo */
+.userContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.userPic {
+    width:120px;
+    height:120px;
+    border-radius:150px;
+}

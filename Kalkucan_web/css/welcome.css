@@ -1,0 +1,47 @@
+/* INDEX CSS */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* Fondo de todo el proyecto */
+body{
+    background-color: #1e1d1d;
+}
+
+/* Fuentes */
+body,h1 {font-family: 'Comfortaa', cursive; color: #fffffe}
+
+
+
+/* Botones inicio */
+.fcc-btn{
+    display: inline-block;  
+    /* inline-block - coloca items en misma linea */
+    background:#373737;           
+    color:#fffffe;
+    width: 180px;
+    border: 3px;    /* Tamaño y color borde */
+    border-radius: 20px;    /* Radio (curvas en esquinas) */
+    padding: 10px 25px;     /* Fondo del texto */
+    margin: 15px 20px;      
+    font-size: 15px;        
+    /* Elimina linea de dirección */
+    text-decoration: none;
+}
+
+/* Sombra en botones */
+.fcc-btn:hover{
+    border: 1px solid #fffffe;
+    color:#3b3d42;
+    background: #fffffe;
+}
+
+/* Imgen logo - redondo */
+.logo {
+    width:180px;
+    height:180px;
+    border-radius:150px;
+}

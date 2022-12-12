@@ -1,0 +1,99 @@
+/* APARTADO TEORIA */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* Fondo de todo el proyecto */
+body{
+    background-color: #1e1d1d;
+}
+
+/* Fuentes */
+body,h1{font-family: 'Comfortaa', cursive; color: #fffffe}
+
+/* Barra superior(navbar) */
+.top{
+    margin: 20px 50px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+}
+
+/* BOTON Inicio */
+.contenedorInicio{
+    background: #373737;    
+    height: 50px;    
+    margin: 20px 50px;
+    border-radius: 30px;    /* Radio (curvas en esquinas) */
+    padding: 1.5px 40px;     /* Fondo del texto */ 
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contenedorInicio:hover{
+    background:  #242528;
+}
+
+/* Elimina linea de enlace */
+a{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Imgen logo - redondo */
+.miniLogo{
+    border-radius:150px;
+}
+
+/* Contenedores con infromación para el usuario */
+.contTitulo{
+    background: #373737; 
+    height: 50px;    
+    margin: 20px 50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.contTexto{
+    background: #373737; 
+    border-radius: 20px;  
+    margin: 0px 50px;  
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedres de avatar y volumen */
+.avatar{
+    display: flex;
+    margin: 55px 40px;
+    block-size: 300px;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.texto{
+    display: block;  
+    margin-top: 30px;
+     margin-bottom: 30px;
+    margin-right: 30px;
+}
